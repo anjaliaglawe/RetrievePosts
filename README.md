@@ -1,18 +1,19 @@
+#Retrive Posts
 This program retrieves a list of posts from a compendium feed and displays the 9 most recent posts to the user
 
-Prerequisites:
+-**Prerequisites:**
 Install maven on your machine http://maven.apache.org/download.cgi
 Java 6 and above
 
-Build:
-Clone the project: https://github.com/anjaliaglawe/Retrieve_Posts.git/Users/anjaliaglawe/git/RetrievePosts-1/.git
+-**Build:**
+Clone the project: https://github.com/anjaliaglawe/RetrievePosts.git
 Navigate to the retrieveFeed project directory
 
-Build project:
+--**Build project:**
 without tests: mvn clean package -DskipTests
 with tests: mvn test
 
-Execute:
+-**Run Instructions:**
 mvn package will create a jar in target directory. to execute the main program from command line execute following command.
 
 java -cp target/retrieveFeed-1.0-SNAPSHOT.jar com.retrieve.feed.RetrievePosts
