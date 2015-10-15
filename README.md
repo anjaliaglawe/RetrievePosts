@@ -7,8 +7,8 @@ This program retrieves a list of posts from a compendium feed and displays the 9
 Table of Contents
 
 * <a href="#prerequisite">Prerequisites</a>
-* <a href="#mavenbuild">Build and Run project with Maven</a>
-* <a href="#eclipselink">Build and Run project with Eclipse</a>
+* <a href="#mavenbuild">Build and Run Project with Maven</a>
+* <a href="#eclipselink">Build and Run Project with Eclipse</a>
 
 ---
 
@@ -26,7 +26,7 @@ Install [Maven](http://maven.apache.org/) (preferably version 3.x) by following 
 
 <a name="mavenbuild"></a>
 
-## Build and Run project with Maven:
+## Build and Run Project with Maven:
 
 - Compile and Package code by following command
  
@@ -43,7 +43,7 @@ Install [Maven](http://maven.apache.org/) (preferably version 3.x) by following 
 
 <a name="eclipselink"></a>
 
-## Build and Run project with Eclipse:
+## Build and Run Project with Eclipse:
 
 * Import the project for File -> Import -> Maven -> Import Existing project
 * To update dependencies, right click on the project -> Maven -> update project
