@@ -32,7 +32,7 @@ Install [Maven](http://maven.apache.org/) (preferably version 3.x) by following 
  
     $ mvn clean install
 
-- mvn package will create a jar in target directory. To execute the jar and run the main program from command line execute 
+- mvn install will create a jar in target directory. To execute the jar and run the main program from command line execute 
   following command.
 
   java -cp target/retrieveFeed-1.0-SNAPSHOT.jar com.retrieve.feed.RetrievePosts
