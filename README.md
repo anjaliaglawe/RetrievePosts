@@ -30,7 +30,7 @@ Install [Maven](http://maven.apache.org/) (preferably version 3.x) by following 
 
 - Compile and Package code by following command
  
-    $ mvn clean install -DskipTests=true
+    $ mvn clean install
 
 - mvn package will create a jar in target directory. To execute the jar and run the main program from command line execute 
   following command.
@@ -38,7 +38,7 @@ Install [Maven](http://maven.apache.org/) (preferably version 3.x) by following 
   java -cp target/retrieveFeed-1.0-SNAPSHOT.jar com.retrieve.feed.RetrievePosts
   
   Input Details :
-  -  FeedId : enter a valid feed Id for the user. (eg. 137f578c-65c0-42b5-8440-19bb7f99b035 )
+  -  FeedId : enter a valid feed Id for the user. (eg. 78f4b458-2c97-4c9a-bb88-f8124db03b21 )
   -  Search parameters : space-delimited list of search terms to filter the results with. press enter if you want to see all the      results and skip searching on specific words.
 
 <a name="eclipselink"></a>
