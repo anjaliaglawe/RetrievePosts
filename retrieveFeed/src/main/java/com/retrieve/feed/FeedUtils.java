@@ -79,9 +79,9 @@ public class FeedUtils {
 				}
 			}
 			System.out.format("%s) %-17s%-35s\n", i + 1, "Title:", f.getTitle());
-			System.out.format("  %-18s%-35s\n", " Author:", f.getAuthor().getName());
+			System.out.format("  %-18s%-35s\n", " Author Name:", f.getAuthor().getName());
 			System.out.format("  %-18s%-35s\n", " Publish Date:", displayFormat.format(publishDate));
-			System.out.format("  %-18s%-35s\n", " Content Body:", StringEscapeUtils.escapeJava(asset));
+			System.out.format("  %-18s%-35s\n", " Post Body:", StringEscapeUtils.escapeJava(asset));
 
 		}
 	}
