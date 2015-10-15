@@ -15,13 +15,19 @@ public class RetrievePosts {
 			Scanner input = new Scanner(System.in);
 			System.out.println("Enter a valid Feed ID : ");
 			String feedId = input.nextLine();
+			//validate if entered feedId is not empty
+			if(feedId == null || feedId == ""){
+				System.out.println("Feed ID cannot be Empty. Please Enter Valid Feed ID");
+				System.exit(0);
+			}
+			
 			System.out.println("Enter search term (eg:searchterm1 searchterm2): ");
 			String searchParams = input.nextLine();
 			input.close();
-
+			
 			String url = "http://app.compendium.com/api/publishers/" + feedId + "/feed";
 			String responseString = "";
-			//utility class that has all the functions
+			
 			FeedUtils utility = new FeedUtils();
 			String urlString;
 			try {
@@ -31,7 +37,8 @@ public class RetrievePosts {
 				} else {
 					urlString = url;
 				}
-				// convert all the spaces into %20
+				
+				// convert all the spaces into %20. 
 				urlString = urlString.replaceAll(" ", "%20");
 				responseString = utility.getURlResponse(urlString);
 
